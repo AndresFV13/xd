@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabla CRUD</h1>
+    
+    <!-- Formulario para agregar un nuevo registro -->
+    <form id="form">
+        <label for="numeroCelular">Número de Celular:</label>
+        <input type="text" id="numeroCelular" required>
+        <label for "id">ID:</label>
+        <input type="text" id="id" required>
+        <button type="button" id="agregar">Agregar</button>
+    </form>
+
+    <!-- Tabla para mostrar los registros -->
+    <table id="tabla">
+        <tr>
+            <th>ID</th>
+            <th>Número de Celular</th>
+            <th>Acciones</th>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
